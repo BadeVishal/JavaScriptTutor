@@ -30,3 +30,6 @@ console.log(typeof (j), j);
 
 let k = Boolean();
 console.log(typeof (k), k);
+
+// for store key:value pair's values in LocalStorage.
+localStorage.setItem(prompt("Enter the key"), prompt("Enter the value"));
